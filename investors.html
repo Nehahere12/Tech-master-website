@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Tech</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>Tech Master</h1>
+        <img src="images/t.jpg" alt="" />
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <i id="cross" class="fa-regular fa-circle-xmark"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu" src="images/menu.jpg" alt="" />
+      </div>
+    </nav>
+    <section id="abouthome">
+      <h2>Investors and Partners/</h2>
+    </section>
+    <section id="para">
+      Our company, a leading provider of diverse and comprehensive IT courses,
+      is proud to collaborate with a network of esteemed partners and investors.
+      Our partners include top-tier technology firms, renowned educational
+      institutions, and industry-leading certification bodies that help us
+      ensure our courses are cutting-edge and industry-relevant. These
+      partnerships enable us to offer an enriched learning experience, complete
+      with real-world insights and practical applications. Additionally, our
+      investors, who are visionary leaders in the tech and education sectors,
+      provide invaluable support and resources that drive our innovation and
+      growth. Their commitment and belief in our mission to empower learners
+      worldwide have been instrumental in our success, enabling us to
+      continuously enhance our offerings and reach new heights in educational
+      excellence.
+      <br /><br />
+      Our company stands at the forefront of IT education, offering a diverse
+      portfolio of courses that cater to learners at all levels. This success is
+      in large part due to our strong and strategic partnerships with leading
+      organizations in the tech and education sectors. We collaborate with
+      top-tier technology companies that bring cutting-edge expertise and the
+      latest industry developments directly into our curriculum. Our
+      partnerships with renowned educational institutions ensure our courses are
+      academically rigorous and meet the highest standards of excellence.
+      Additionally, we work closely with industry-leading certification bodies,
+      enabling our students to earn credentials that are recognized and
+      respected worldwide. Our investors play a crucial role in our journey,
+      providing not just financial backing, but also strategic guidance and
+      support. These visionary leaders are passionate about the transformative
+      power of education and share our commitment to empowering individuals
+      through knowledge. Their investment allows us to continually innovate,
+      incorporating the latest advancements in technology and pedagogy into our
+      offerings. With their support, we have been able to expand our reach,
+      developing new courses and resources that address the evolving needs of
+      the IT industry.
+      <br /><br />
+
+      Together, our partners and investors form a robust ecosystem that fuels
+      our mission to deliver exceptional IT education. They enable us to offer a
+      learning experience that is both comprehensive and practical, preparing
+      our students to excel in a competitive and ever-changing field. As we look
+      to the future, we remain dedicated to fostering these relationships and
+      exploring new opportunities for collaboration, ensuring that we continue
+      to provide unparalleled value to our learners and maintain our position as
+      a leader in IT education.
+    </section>
+    <section id="trust">
+      <h1>Trusted by</h1>
+      <p>
+        We have a lot of trusted partners and institutions with us and who
+        support us.
+      </p>
+      <div class="trustimage">
+        <img src="images/tr1.jpg" alt="" />
+        <img src="images/tr2.jpg" alt="" />
+        <img src="images/tr5.jpg" alt="" />
+        <img src="images/tr3.jpg" alt="" />
+        <img src="images/tr4.jpg" alt="" />
+        <img src="images/tr6.jpg" alt="" />
+      </div>
+    </section>
+    <footer>
+      <div class="footercolumn">
+        <li id="product">Products</li>
+        <li id="reputation">Reputation</li>
+        <li id="power">Power</li>
+        <li id="manage">Management</li>
+        <li id="market">Marketing</li>
+      </div>
+      <div class="footercolumn">
+        <li id="career">Careers</li>
+        <li id="teach">Teach here</li>
+        <li id="app">Get the app</li>
+        <li id="about">About us</li>
+        <li id="us">Contact us</li>
+      </div>
+      <div class="footercolumn">
+        <li id="support">Help and support</li>
+        <li id="blog">Blog</li>
+        <li id="invest">Investors</li>
+        <li id="cookies">Cookies</li>
+        <li id="privacy">Privacy policy</li>
+      </div>
+      <div class="footercolumn">
+        <li id="m">Sitemap</li>
+        <li id="part">Partners</li>
+        <li id="Buisness">Buisness</li>
+        <li id="access">Accessibility statement</li>
+        <li id="Growth">Growth</li>
+      </div>
+      <div class="footercolumn">
+        <h3>Newsletter</h3>
+        <p>You can trust us. We only send promo offers.</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email address" />
+          <a id="n" href="#" class="yellow"> subscribe</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @2024 All rights reserved | This template is made by Tech
+          master
+        </p>
+        <div class="prolinks">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("cookies")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          alert("No cookies till now.");
+        });
+      // products
+      document.getElementById("product").addEventListener("click", function () {
+        window.location.href = "product.html";
+      });
+      document
+        .getElementById("reputation")
+        .addEventListener("click", function () {
+          window.location.href = "reputation.html";
+          console.log("not done");
+        });
+      document.getElementById("power").addEventListener("click", function () {
+        window.location.href = "power.html";
+      });
+      document.getElementById("manage").addEventListener("click", function () {
+        window.location.href = "power.html";
+      });
+      document.getElementById("market").addEventListener("click", function () {
+        window.location.href = "market.html";
+      });
+      document.getElementById("career").addEventListener("click", function () {
+        window.location.href = "carrer.html";
+      });
+      document.getElementById("teach").addEventListener("click", function () {
+        window.location.href = "carrer.html";
+      });
+      document.getElementById("about").addEventListener("click", function () {
+        window.location.href = "about.html";
+      });
+      document.getElementById("us").addEventListener("click", function () {
+        window.location.href = "contact.html";
+      });
+      document.getElementById("support").addEventListener("click", function () {
+        window.location.href = "contact.html#contact";
+      });
+      document.getElementById("blog").addEventListener("click", function () {
+        window.location.href = "blog.html";
+      });
+      document.getElementById("invest").addEventListener("click", function () {
+        window.location.href = "investors.html";
+      });
+      document.getElementById("privacy").addEventListener("click", function () {
+        window.location.href = "private.html";
+      });
+      document.getElementById("m").addEventListener("click", function () {
+        window.location.href = "contact.html#map";
+      });
+      document.getElementById("part").addEventListener("click", function () {
+        window.location.href = "investors.html";
+      });
+      const app = document.getElementById("app");
+
+      app.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default behavior of the link
+        const playStoreUrl =
+          "https://support.google.com/googleplay/answer/190860?hl=en"; // Replace with your app's Play Store URL
+        window.open(playStoreUrl, "_blank"); // Open URL in a new tab
+      });
+      $(document).ready(function () {
+        $("#menu").click(function () {
+          $("nav .navigation ul").addClass("active");
+        });
+
+        $("#cross").click(function () {
+          $("nav .navigation ul").removeClass("active");
+        });
+      });
+      document
+        .getElementById("Buisness")
+        .addEventListener("click", function () {
+          window.location.href = "market.html";
+        });
+      document.getElementById("access").addEventListener("click", function () {
+        window.location.href = "access.html";
+      });
+      document.getElementById("Growth").addEventListener("click", function () {
+        window.location.href = "Growth.html";
+      });
+      document.getElementById("n").addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("You are subscribed");
+      });
+    </script>
+  </body>
+</html>

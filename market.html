@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Master Tech</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>Tech Master</h1>
+        <img src="images/t.jpg" alt="" />
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <i id="cross" class="fa-regular fa-circle-xmark"></i>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img id="menu" src="images/menu.jpg" alt="" />
+      </div>
+    </nav>
+
+    <section id="course" class="neha">
+      <h1>Our Marketing and Buisness</h1>
+      <p>
+        Founded on a bedrock of innovation and fueled by a passion for
+        excellence, Tech Master stands as a beacon of technological prowess in
+        the ever-evolving IT landscape. With a seasoned team of dedicated
+        professionals who bring decades of collective experience, we specialize
+        in crafting bespoke solutions that not only meet but exceed the
+        expectations of our diverse clientele. Our comprehensive service
+        portfolio spans across a spectrum of domains, including software
+        development, cybersecurity, cloud computing, data analytics, and more.
+        What sets us apart is our proactive approach to problem-solving and our
+        innate ability to anticipate market trends and technological shifts. At
+        Tech master, we believe that technology should be transformative,
+        empowering businesses to achieve their full potential. Our collaborative
+        approach ensures that we not only understand the unique challenges faced
+        by our clients but also align our solutions with their strategic
+        objectives. From Fortune 500 companies to ambitious startups, our track
+        record speaks volumes about our ability to deliver scalable, robust, and
+        future-proof solutions that drive tangible business outcomes. Innovation
+        is ingrained in our DNA. We continuously invest in research and
+        development, staying at the forefront of emerging technologies such as
+        artificial intelligence, machine learning, blockchain, and IoT. This
+        enables us to offer cutting-edge solutions that not only solve immediate
+        challenges but also position our clients as leaders in their respective
+        industries. Our commitment to quality is unwavering. We adhere to
+        rigorous standards and best practices, ensuring that every project we
+        undertake meets the highest levels of reliability, security, and
+        performance. At Tech master, our marketing strategy is driven by a deep
+        understanding of industry dynamics and a commitment to empowering
+        learners through transformative education. We leverage targeted digital
+        campaigns, strategic partnerships, and a robust online presence to reach
+        our global audience effectively. Our courses are meticulously crafted to
+        meet the demands of today's competitive market, offering practical
+        skills and certifications that align with industry standards. From
+        comprehensive online resources to personalized learning experiences, we
+        ensure that our courses not only educate but also inspire and empower
+        individuals to achieve their career aspirations. Central to our approach
+        is the emphasis on quality and relevance. Each course is developed in
+        collaboration with industry experts, ensuring that our curriculum
+        remains current and reflects the latest advancements in technology and
+        business practices. We employ innovative marketing tactics to showcase
+        the value of our courses, utilizing compelling content, customer
+        testimonials, and engaging social media campaigns to resonate with our
+        target audience. Our customer-centric philosophy guides every aspect of
+        our marketing strategy. We prioritize transparency and responsiveness,
+        providing prospective learners with clear information about course
+        content, outcomes, and support services. Whether through informative
+        webinars, interactive demos, or one-on-one consultations, we strive to
+        build trust and foster meaningful relationships with our students. As we
+        continue to expand our footprint in the educational landscape, we remain
+        dedicated to democratizing access to high-quality learning
+        opportunities. Our commitment to excellence, coupled with our innovative
+        marketing approach, positions us as a leader in the education sector,
+        empowering individuals worldwide to thrive in their careers and achieve
+        their professional goals.
+      </p>
+    </section>
+
+    <footer>
+      <div class="footercolumn">
+        <li id="product">Products</li>
+        <li id="reputation">Reputation</li>
+        <li id="power">Power</li>
+        <li id="manage">Management</li>
+        <li id="market">Marketing</li>
+      </div>
+      <div class="footercolumn">
+        <li id="career">Careers</li>
+        <li id="teach">Teach here</li>
+        <li id="app">Get the app</li>
+        <li id="about">About us</li>
+        <li id="us">Contact us</li>
+      </div>
+      <div class="footercolumn">
+        <li id="support">Help and support</li>
+        <li id="blog">Blog</li>
+        <li id="invest">Investors</li>
+        <li id="cookies">Cookies</li>
+        <li id="privacy">Privacy policy</li>
+      </div>
+      <div class="footercolumn">
+        <li id="m">Sitemap</li>
+        <li id="part">Partners</li>
+        <li id="Buisness">Buisness</li>
+        <li id="access">Accessibility statement</li>
+        <li id="Growth">Growth</li>
+      </div>
+      <div class="footercolumn">
+        <h3>Newsletter</h3>
+        <p>You can trust us. We only send promo offers.</p>
+        <div class="subscribe">
+          <input type="text" placeholder="Your Email address" />
+          <a id="n" href="#" class="yellow"> subscribe</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @2024 All rights reserved | This template is made by Tech
+          master
+        </p>
+        <div class="prolinks">
+          <a href="https://www.facebook.com" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document
+        .getElementById("cookies")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          alert("No cookies till now.");
+        });
+      // products
+      document.getElementById("product").addEventListener("click", function () {
+        window.location.href = "product.html";
+      });
+      document
+        .getElementById("reputation")
+        .addEventListener("click", function () {
+          window.location.href = "reputation.html";
+          console.log("not done");
+        });
+      document.getElementById("power").addEventListener("click", function () {
+        window.location.href = "power.html";
+      });
+      document.getElementById("manage").addEventListener("click", function () {
+        window.location.href = "power.html";
+      });
+      document.getElementById("market").addEventListener("click", function () {
+        window.location.href = "market.html";
+      });
+      document.getElementById("career").addEventListener("click", function () {
+        window.location.href = "carrer.html";
+      });
+      document.getElementById("teach").addEventListener("click", function () {
+        window.location.href = "carrer.html";
+      });
+      document.getElementById("about").addEventListener("click", function () {
+        window.location.href = "about.html";
+      });
+      document.getElementById("us").addEventListener("click", function () {
+        window.location.href = "contact.html";
+      });
+      document.getElementById("support").addEventListener("click", function () {
+        window.location.href = "contact.html#contact";
+      });
+      document.getElementById("blog").addEventListener("click", function () {
+        window.location.href = "blog.html";
+      });
+      document.getElementById("invest").addEventListener("click", function () {
+        window.location.href = "investors.html";
+      });
+      document.getElementById("privacy").addEventListener("click", function () {
+        window.location.href = "private.html";
+      });
+      document.getElementById("m").addEventListener("click", function () {
+        window.location.href = "contact.html#map";
+      });
+      document.getElementById("part").addEventListener("click", function () {
+        window.location.href = "investors.html";
+      });
+      const app = document.getElementById("app");
+
+      app.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent default behavior of the link
+        const playStoreUrl =
+          "https://support.google.com/googleplay/answer/190860?hl=en"; // Replace with your app's Play Store URL
+        window.open(playStoreUrl, "_blank"); // Open URL in a new tab
+      });
+      $(document).ready(function () {
+        $("#menu").click(function () {
+          $("nav .navigation ul").addClass("active");
+        });
+
+        $("#cross").click(function () {
+          $("nav .navigation ul").removeClass("active");
+        });
+      });
+      document
+        .getElementById("Buisness")
+        .addEventListener("click", function () {
+          window.location.href = "market.html";
+        });
+      document.getElementById("access").addEventListener("click", function () {
+        window.location.href = "access.html";
+      });
+      document.getElementById("Growth").addEventListener("click", function () {
+        window.location.href = "Growth.html";
+      });
+      document.getElementById("n").addEventListener("click", function (event) {
+        event.preventDefault();
+        alert("You are subscribed");
+      });
+    </script>
+  </body>
+</html>
